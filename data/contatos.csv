@@ -1,0 +1,3 @@
+nome,telefone,message,image,pdf
+Arthur,+5561998851318,"Olá {nome}, teste pro!","C:\\caminho\\para\\imagem.jpg","C:\\caminho\\para\\arquivo.pdf"
+Mãe,+5561996080512,"Olá {nome}, teste pro!","C:\\caminho\\para\\imagem.jpg","C:\\caminho\\para\\arquivo.pdf"
