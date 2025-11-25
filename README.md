@@ -17,32 +17,6 @@ Easy to customize for different companies or clients
 Written with a clean and scalable architecture
 
 
-Project Architecture:
-automation-pro/
-│
-├── main.py                  # CLI entry point
-├── .env                     # Environment configuration
-├── requirements.txt         # Dependencies
-│
-├── data/
-│   └── contacts.csv         # Campaign contact list
-│
-├── logs/
-│   └── sent.log             # Sent messages log
-│
-├── src/
-│   ├── core/                # Core logic shared across services
-│   │   ├── utils/           # Utility functions
-│   │   │   └── utils.py
-│   │   ├── templates.py     # Message templates
-│   │   └── loader.py        # Contact loader
-│   │
-│   └── services/
-│       └── messenger/
-│           └── whatsapp.py  # WhatsApp automation via Selenium
-│
-└── README.md
-
 
 This structure allows the project to grow into:
 
@@ -101,7 +75,7 @@ Automation freelancers
 
 Installation
 1- Clone the repository:
-git clone https://github.com/arthurdnz10/WhatsApp-Automation.git
+git clone https://github.com/arthurdnz-dev/WhatsApp-Automation.git
 cd automation-pro
 
 2- Create a virtual environment
